@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Formulario_1.CurriculumPage">
+
+    <StackLayout Padding="20">
+        <Label x:Name="nombreLabel" Text="Nombre: " />
+        <Label x:Name="apellidoLabel" Text="Apellido: " />
+        <Label x:Name="estudiosLabel" Text="Estudios: " />
+        <Label x:Name="experienciaLabel" Text="Experiencia: " />
+        <Label x:Name="areaLabel" Text="Área: " />
+        <Label x:Name="telefonoLabel" Text="Teléfono: " />
+        <Label x:Name="correoLabel" Text="Correo: " />
+    </StackLayout>
+
+</ContentPage>

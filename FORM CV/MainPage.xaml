@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Formulario_1.MainPage">
+
+    <StackLayout Padding="20">
+        <Label Text="Nombre" TextColor="{StaticResource PrimaryColor}" />
+        <Entry x:Name="nombre" />
+        
+        <Label Text="Apellido" TextColor="{StaticResource PrimaryColor}" />
+        <Entry x:Name="apellido" />
+        
+        <Label Text="Estudios" TextColor="{StaticResource PrimaryColor}" />
+        <Entry x:Name="estudios" />
+        
+        <Label Text="Experiencia" TextColor="{StaticResource PrimaryColor}" />
+        <Entry x:Name="experiencia" />
+        
+        <Label Text="Área" TextColor="{StaticResource PrimaryColor}" />
+        <Entry x:Name="area" />
+        
+        <Label Text="Teléfono" TextColor="{StaticResource PrimaryColor}" />
+        <Entry x:Name="telefono" />
+        
+        <Label Text="Correo" TextColor="{StaticResource PrimaryColor}" />
+        <Entry x:Name="correo" />
+        
+        <Button Text="Crear CV" TextColor="{StaticResource TextColor}" BackgroundColor="{StaticResource SecondaryColor}" Clicked="OnCreateCvButtonClicked" />
+    </StackLayout>
+
+</ContentPage>
